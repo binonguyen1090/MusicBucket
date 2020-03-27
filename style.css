@@ -50,10 +50,6 @@ body, html {
     
     
 }
-.grid {
-    display: flex;
-    justify-content: center;
-}
 
 .c {
     width: 10%;

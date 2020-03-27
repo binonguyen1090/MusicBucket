@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./grid.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.5.43/Tone.js"></script>
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"> </script>
     <script src="https://d3js.org/d3.v3.min.js"></script>
@@ -34,91 +35,537 @@
             <div class="title"><h1>Music Bucket</h1></div>
             <div class="grid">
                 <div class="drums">
+                    <label>Kick</label>
                     <div class="kick">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
+                        
+                        
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+ 
+                        
+                        
                         
                     </div>
-                    <div class="snare">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
-                        <input type="checkbox">
+                    <div class="kick1">
+                    
+                    
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                    
+                    
+                    
+                    
                     </div>
+                    
+                    <div class="kick3">
+                    
+                    
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                    
+                    
+                    
+                    
+                    </div>
+                    <div class="kick4">
+                    
+                    
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                    
+                    
+                    
+                    
+                    </div>
+                    <div class="kick5">
+                    
+                    
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                    
+                    
+                    
+                    
+                    </div>
+                    <label>Snare</label>
+                    <div class="snare">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        
+                        
+                        
+                      
+                    </div>
+                    <div class="snare1">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        
+                        
+                        
+                      
+                    </div>
+                    <div class="snare2">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        
+                        
+                        
+                      
+                    </div>
+                    <div class="snare3">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        
+                        
+                        
+                      
+                    </div>
+                    <div class="snare4">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        
+                        
+                        
+                      
+                    </div>
+                    <label>Tom</label>
+                    <div class="tom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                    </div>
+                    <div class="tom1">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                    </div>
+                    <div class="tom2">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                    </div>
+                    <div class="tom3">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                        <input type="checkbox" class="checkbox-custom">
+                    </div>
+                    
                 </div>
             </div>
         </div>
