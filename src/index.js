@@ -9,15 +9,16 @@ function sequencer() {
     let i = 0;
     
     // Transport => add f pass howmany time loops,(f,  8times)
-    Tone.Transport.scheduleRepeat(repeat, "8n");
+    Tone.Transport.scheduleRepeat(repeat, "40n");
     Tone.Transport.start()
 
     //f to repeat , loop8 time  and repeat
     function repeat() {
-        let step = i % 8;
+        let step = i % 40;
         // console.log(step)
         let kickInputs = document.querySelector(`.kick input:nth-child(${step + 1})`);
         if (kickInputs.checked){
+            // console.log('sound')
             kick.start();
         };
         i++;
