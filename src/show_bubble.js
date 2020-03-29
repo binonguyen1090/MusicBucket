@@ -47,8 +47,7 @@ let florets = svg
   .attr("cy", d => d.cy)
   .attr("r", 0.1)
   .attr("fill", (d, i) => d3.hsl(colorScale(i), 0.5, 0.7))
-  .attr("fill-opacity", 0.6);
-
+  .attr("fill-opacity", 0.4);
 d3.timer(function(t) {
   florets.attr("r", (d, i) => (Math.sin((i * t) / 400000) + 1) * d.r);
   svg.attr(
