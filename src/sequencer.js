@@ -19,7 +19,7 @@ const allInput = document.body.querySelectorAll('input')
 const play = document.body.querySelector('.play');
 const pause = document.body.querySelector('.pause');
 const rows = document.body.querySelectorAll('.row');
-const refresh = document.body.querySelector('.refresh');
+const clear = document.body.querySelector('.clear');
 const reset = document.body.querySelector('.reset');
 const spans = document.body.querySelectorAll('span');
 
@@ -38,7 +38,7 @@ play.addEventListener('click', () => {
 pause.addEventListener('click', () => {
     Tone.Transport.stop()
 })
-refresh.addEventListener('click', e => {
+clear.addEventListener('click', e => {
     for (let i = 0; i < allInput.length; i++) {
         if (allInput[i].checked === true) {
             allInput[i].checked = false
