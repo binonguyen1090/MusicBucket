@@ -13,7 +13,12 @@ const synths = [
     new Tone.Synth()
 ]
 
-synths.forEach(synth => synth.toMaster())
+
+synths.forEach(synth => {
+    const gain = new Tone.Gain(0.2);
+    gain.toMaster()
+synth.connect(gain)
+}    )
 const allInput = document.body.querySelectorAll('input')
 
 const play = document.body.querySelector('.play');
@@ -31,13 +36,13 @@ let index = 0;
 
 
 Tone.Transport.scheduleRepeat(repeat, "8n")
-// Tone.Transport.bpm.value = 20
 play.addEventListener('click', () => {
     Tone.Transport.start()
 })
 pause.addEventListener('click', () => {
     Tone.Transport.stop()
 })
+
 clear.addEventListener('click', e => {
     for (let i = 0; i < allInput.length; i++) {
         if (allInput[i].checked === true) {

@@ -14,3 +14,28 @@
 .fa{
    color: rgb(76, 114, 185);
 }
+
+.fa.fa-play{
+  font-size: 15px;
+  padding: 5px;
+    color: blue;
+    border-radius: 20px;
+
+}
+.fa.fa-pause{
+  font-size: 15px;
+  padding: 5px;
+    color: blue;
+
+}
+.fa.fa-trash{
+  font-size: 15px;
+  padding: 5px;
+    color: blue;
+
+}
+.fa.fa-repeat{
+  font-repeat: 15px;
+  padding: 5px;
+  color: blue;
+}

@@ -2,7 +2,10 @@ console.clear()
 document.documentElement.addEventListener('mousedown', () => {
     if (Tone.context.state !== 'running') Tone.context.resume();
 });
-const synth = new Tone.Synth().toMaster();
+const synth = new Tone.Synth()
+const gain = new Tone.Gain(0.2);
+gain.toMaster()
+synth.connect(gain);
 
 const c5 = document.querySelectorAll('.row-1-sound');
 const d5 = document.querySelectorAll('.row-2-sound');
