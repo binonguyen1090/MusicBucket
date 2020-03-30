@@ -1,3 +1,7 @@
+.highlight {
+    border: solid 2px red !important;
+}
+
 .grid {
     display: flex;
     justify-content: center;
@@ -63,7 +67,7 @@
 
 .label input:checked ~ .checkbox-custom {
     background-color: red;
-    opacity:1;
+    opacity:0.5;
     border: 2px solid #FFFFFF;
 }
 
