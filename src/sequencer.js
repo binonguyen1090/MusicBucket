@@ -30,6 +30,8 @@ const rows = document.body.querySelectorAll('.row');
 const clear = document.body.querySelector('.clear');
 const reset = document.body.querySelector('.reset');
 const spans = document.body.querySelectorAll('span');
+const tempo = document.body.querySelector('.tempo-slide');
+
 
 
 const notes = ['C5', 'D5', 'E5', 'F5', 'G5', 'A5', 'B5', 'C6'];
@@ -38,6 +40,15 @@ let index = 0;
 
 
 Tone.Transport.scheduleRepeat(repeat, "8n")
+
+tempo.addEventListener("change", e => {
+    Tone.Transport.bpm.rampTo(e.target.value, 0.1);
+    tempoDisplay.value = e.target.value
+
+});
+
+
+
 play.addEventListener('click', () => {
     Tone.Transport.start()
 })

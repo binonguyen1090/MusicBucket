@@ -1,0 +1,38 @@
+input[type=range] {
+    -webkit-appearance: none;
+    width: 250px;
+    /* margin-right: 4px; */
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 19px;
+    cursor: pointer;
+    background: rgb(14, 49, 241);
+    border: 1px solid white;
+    /* border-radius: 4px; */
+}
+
+input[type=range]::-webkit-slider-thumb {
+
+    border: 1px solid white;
+    height: 30px;
+    width: 15px;
+    border-radius: 5px;
+    background: rgb(31, 44, 219);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -9px;
+}
+.tempo-box {
+    display: flex;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: bold;
+    margin-right: 10px;
+}
