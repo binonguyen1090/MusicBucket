@@ -10,7 +10,10 @@ const synths = [
     new Tone.Synth(),
     new Tone.Synth(),
     new Tone.Synth(),
-    new Tone.Synth()
+    new Tone.Synth(),
+    new Tone.NoiseSynth(),
+    new Tone.MetalSynth(),
+    new Tone.MembraneSynth()
 ]
 
 
@@ -28,7 +31,7 @@ const clear = document.body.querySelector('.clear');
 const reset = document.body.querySelector('.reset');
 const spans = document.body.querySelectorAll('span');
 
-
+console.log(rows)
 
 const notes = ['C5', 'D5', 'E5', 'F5', 'G5', 'A5', 'B5', 'C6'];
 
@@ -66,7 +69,12 @@ function repeat() {
         span = input.querySelector(`span`);
         checkbox = input.querySelector('input');
         if (checkbox.checked) {
-            synth.triggerAttackRelease(note, '8n');  
+            if (i <= 7) {
+                synth.triggerAttackRelease(note, '8n');  
+            } else {
+                synth.triggerAttackRelease('8n');
+            }
+           
         }
         span.classList.toggle('highlight')
 
