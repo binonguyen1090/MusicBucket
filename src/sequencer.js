@@ -38,12 +38,11 @@ const notes = ['C5', 'D5', 'E5', 'F5', 'G5', 'A5', 'B5', 'C6'];
 const plucknote = 'C3'
 let index = 0;
 
-
+Tone.Transport.bpm.value = 200
 Tone.Transport.scheduleRepeat(repeat, "8n")
 
 tempo.addEventListener("change", e => {
     Tone.Transport.bpm.rampTo(e.target.value, 0.1);
-    tempoDisplay.value = e.target.value
 
 });
 
