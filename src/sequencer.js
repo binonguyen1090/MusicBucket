@@ -24,11 +24,17 @@ synth.connect(gain)
 }    )
 const allInput = document.body.querySelectorAll('input')
 
+const play1 = document.body.querySelector('.play1');
+const pause1 = document.body.querySelector('.pause1');
+const reset1 = document.body.querySelector('.reset1');
+const clear1 = document.body.querySelector('.clear1');
+
+
 const play = document.body.querySelector('.play');
 const pause = document.body.querySelector('.pause');
-const rows = document.body.querySelectorAll('.row');
-const clear = document.body.querySelector('.clear');
 const reset = document.body.querySelector('.reset');
+const clear = document.body.querySelector('.clear');
+const rows = document.body.querySelectorAll('.row');
 const spans = document.body.querySelectorAll('span');
 const tempo = document.body.querySelector('.tempo-slide');
 
@@ -93,3 +99,26 @@ function repeat() {
     }
     index++;
 } 
+
+
+
+
+play1.addEventListener('click', () => {
+    Tone.Transport.start()
+})
+pause1.addEventListener('click', () => {
+    Tone.Transport.stop()
+})
+
+clear1.addEventListener('click', e => {
+    for (let i = 0; i < allInput.length; i++) {
+        if (allInput[i].checked === true) {
+            allInput[i].checked = false
+        }
+    }
+})
+reset1.addEventListener('click', e => {
+    index = 0;
+    Tone.Transport.stop();
+    spans.forEach(span => span.classList.remove('highlight'))
+})
