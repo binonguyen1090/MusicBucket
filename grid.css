@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     /* background-color: pink; */
-    padding:0 20px 0 20px;
+    padding:0px 20px 0px 20px;
     margin-right: 270px;
 
 }
@@ -72,37 +72,5 @@
 }
 
 
-/* For Ripple Effect */
-.label .checkbox-custom::before {
-    position: absolute;
-    content: "";
-    left: 10px;
-    top: 10px;
-    width: 0px;
-    height: 0px;
-    border-radius: 5px;
-    border: 2px solid #FFFFFF;
-    -webkit-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);    
-}
-
-.label input:checked ~ .checkbox-custom::before {
-    left: -3px;
-    top: -3px;
-    width: 24px;
-    height: 24px;
-    border-radius: 5px;
-    -webkit-transform: scale(3);
-    -ms-transform: scale(3);
-    transform: scale(3);
-    opacity:0;
-    z-index: 999;
-    transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -ms-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-}
 
 
