@@ -31,7 +31,6 @@ const clear = document.body.querySelector('.clear');
 const reset = document.body.querySelector('.reset');
 const spans = document.body.querySelectorAll('span');
 
-console.log(rows)
 
 const notes = ['C5', 'D5', 'E5', 'F5', 'G5', 'A5', 'B5', 'C6'];
 
