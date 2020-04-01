@@ -4,7 +4,7 @@ document.documentElement.addEventListener('mousedown', () => {
 });
 const noisesynth = new Tone.NoiseSynth().toMaster()
 const metalsynth = new Tone.MetalSynth().toMaster()
-const membrancesynth = new Tone.MembraneSynth().toMaster()
+const membrancesynth = new Tone.PluckSynth().toMaster()
 
 
 const noises = document.querySelectorAll('.row-noise');
@@ -26,6 +26,7 @@ for (let i = 0; i < metals.length; i++) {
 
 for (let i = 0; i < membrances.length; i++) {
     membrances[i].addEventListener('click', () => {
-        membrancesynth.triggerAttackRelease('8n');
+        membrancesynth.triggerAttackRelease('C3','8n');
+        
     });
 }

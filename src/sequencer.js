@@ -13,12 +13,12 @@ const synths = [
     new Tone.Synth(),
     new Tone.NoiseSynth(),
     new Tone.MetalSynth(),
-    new Tone.MembraneSynth()
+    new Tone.PluckSynth()
 ]
 
 
 synths.forEach(synth => {
-    const gain = new Tone.Gain(0.2);
+    const gain = new Tone.Gain(0.4);
     gain.toMaster()
 synth.connect(gain)
 }    )
@@ -33,7 +33,7 @@ const spans = document.body.querySelectorAll('span');
 
 
 const notes = ['C5', 'D5', 'E5', 'F5', 'G5', 'A5', 'B5', 'C6'];
-
+const plucknote = 'C3'
 let index = 0;
 
 
@@ -70,7 +70,10 @@ function repeat() {
         if (checkbox.checked) {
             if (i <= 7) {
                 synth.triggerAttackRelease(note, '8n');  
-            } else {
+            } else if (i === 10) {
+                synth.triggerAttackRelease(plucknote, '8n');  
+
+            }else {
                 synth.triggerAttackRelease('8n');
             }
            
@@ -79,4 +82,4 @@ function repeat() {
 
     }
     index++;
-}
+} 
