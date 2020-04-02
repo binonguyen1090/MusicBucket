@@ -9,7 +9,7 @@
 
 ### Technologies 
 ##### The app created using JavaScript, jQuery, HTML/CSS, and Tone.js.
-#### Music bucket was constructed utilizing a combination of JavaScript, Tone.js, HTML and CSS. JavaScript was used for the main logic along with Tone.js to generate the various sound samples. HTML was used to structure the application and CSS was used for styling.
+##### Music bucket was constructed utilizing a combination of JavaScript, Tone.js, HTML and CSS. JavaScript was used for the main logic along with Tone.js to generate the various sound samples. HTML was used to structure the application and CSS was used for styling.
 
 ### Implementation
 ##### Music bucket uses JavaScript and jQuery to create a soundboard that loops through playing different beats.
