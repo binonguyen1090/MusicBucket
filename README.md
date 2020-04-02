@@ -7,3 +7,6 @@ Live: https://binonguyen1090.github.io/MusicBucket/
 
 <img width="1337" alt="musicbucket" src="https://user-images.githubusercontent.com/38637651/78290433-9a609400-74d8-11ea-943a-84cd0a82e47b.png">
 
+![][logo]
+
+[logo]: hhttps://github.com/binonguyen1090/MusicBucket/blob/master/musicbucket.png"
