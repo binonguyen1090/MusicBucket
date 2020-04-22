@@ -111,3 +111,77 @@
 .logo{
     background: none;
 }
+
+
+
+/* Music */
+
+.audio {
+  margin-left: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4%;
+  width: 500px;
+  background: rgb(243, 239, 239);
+  border-radius: 15px;
+  /* border: 2px solid white; */
+  margin-right: 105px;
+}
+
+.audio-design {
+  display: flex;
+  /* width: 50%; */
+  height: 50%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+.audio-design strong {
+  font-size: 17px;
+  color: black;
+}
+
+.controls {
+  outline: none;
+  height: 150%;
+  /* margin-bottom: 1px; */
+}
+
+#audio-out {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+#music-icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+#forward {
+  height: 19px;
+  width: 19px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 100px;
+  padding: 6px;
+}
+
+#forward:hover {
+  background: rgb(227, 224, 224);
+}
+
+#audio-in {
+  display: flex;
+  align-items: center;
+}
+
+#m1 {
+  display: none;
+}
+#m2 {
+  display: none;
+}

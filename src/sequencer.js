@@ -19,7 +19,8 @@ const synths = [
 
 synths.forEach(synth => {
     const gain = new Tone.Gain(0.4);
-    gain.toMaster()
+    gain.toDestination()
+    // gain.toMaster()
 synth.connect(gain)
 }    )
 const allInput = document.body.querySelectorAll('input')

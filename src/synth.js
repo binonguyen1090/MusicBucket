@@ -4,7 +4,8 @@ document.documentElement.addEventListener('mousedown', () => {
 });
 const synth = new Tone.Synth()
 const gain = new Tone.Gain(0.2);
-gain.toMaster()
+// gain.toMaster()
+gain.toDestination()
 synth.connect(gain);
 
 const c5 = document.querySelectorAll('.row-1-sound');
