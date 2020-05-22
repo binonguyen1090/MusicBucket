@@ -5,7 +5,8 @@
 ##### Music bucket is a 16 step sequencer with an 8 track,tone selection grid and a 3 track sound machine with which users can create and manipulate original and groovy loops.
 
 
-<img width="1235" alt="musicbucket" src="https://user-images.githubusercontent.com/38637651/80109263-268f3580-8532-11ea-98a4-b3006a764ce7.png">
+<img width="1667" alt="Screen Shot 2020-05-22 at 12 53 54 AM" src="https://user-images.githubusercontent.com/38637651/82635815-bde5b800-9bc6-11ea-8425-748dd0308e24.png">
+
 
 
 ### Technologies 
