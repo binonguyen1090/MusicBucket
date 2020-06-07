@@ -74,6 +74,6 @@ tempo.addEventListener("change", e => {
 
 
 ```
-### Feature
+### Features
 
 ##### Each cell has the ability to toggle play on or off. When toggled on, the beat will play at tempo as the slider loops through the board. User can increase and decrease tempo, pause, clear and reset the board.
