@@ -14,7 +14,7 @@
     "babel-loader": "^8.1.0",
     "d3": "^5.15.0",
     "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.12"
   },
   "devDependencies": {},
   "description": ""
